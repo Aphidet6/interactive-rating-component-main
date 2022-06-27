@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box1 {
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 30px;
+}
+.main-box2 {
+    display: none;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+.head {
+    margin-top:30px;
+}
+.btn {
+    background: hsl(211, 17%, 26%);
+    padding: 10px;
+    border-radius: 50%;
+    display:block;
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+h1 {
+    color:hsl(0, 0%, 100%);
+}
+p {
+    color:hsl(217, 12%, 63%);
+}
+.rating {
+    margin-top: 30px;
+}
+button {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 2px none hsl(25, 97%, 53%);
+}
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.selected {
+    width: auto;
+    height: 30px;
+    border: 2px none hsl(211, 17%, 26%);
+    border-radius: 25px;
+    background-color: hsl(211, 17%, 26%);
+    
+}
+.selected p {
+    color: hsl(25, 97%, 53%);
+    padding: 7px;
+}
+.rb {
+    padding: 16px 0;
+    text-align: center;
+    border-radius: .3em;
+}
+.rb-tab {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+}
+.rb-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+.rb-spot {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsl(211, 17%, 26%);
+    border: 2px solid hsl(211, 17%, 26%);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: ease .5s;
+}
+.rb-spot:hover {
+    border: hsl(25, 97%, 53%);
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+.rb-tab-active .rb-spot {
+    background: hsl(217, 12%, 63%);
+    border: 2px solid hsl(217, 12%, 63%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

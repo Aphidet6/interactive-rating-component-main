@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <div class="container">
+    <div id="id01" class="main-box1">
+      <div class="btn">
+       <img src="images/icon-star.svg" alt="icon-star;">
+      </div>
+      <div class="head">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!</p>
+      </div>
+      <div class="rating"><!-- Rating state start -->
+
+        <div id="rb-1" class="rb">
+          <div class="rb-tab" data-value="1">
+            <div class="rb-spot">
+              <span class="rb-txt">1</span>
+            </div>
+          </div><div class="rb-tab" data-value="2">
+            <div class="rb-spot">
+              <span class="rb-txt">2</span>
+            </div>
+          </div><div class="rb-tab" data-value="3">
+            <div class="rb-spot">
+              <span class="rb-txt">3</span>
+            </div>
+          </div><div class="rb-tab" data-value="4">
+            <div class="rb-spot">
+              <span class="rb-txt">4</span>
+            </div>
+          </div><div class="rb-tab" data-value="5">
+            <div class="rb-spot">
+              <span class="rb-txt">5</span>
+            </div>
+          </div>
+        </div>
+        <button class="button trigger";>S U B M I T</button>
+      </div><!-- Rating state end -->
+    </div><!-- End Page 1 -->
+    <div id="id02" class="main-box2">
+      <div class="img">
+        <img src="images/illustration-thank-you.svg" alt="thank-you;">
+      </div>
+      <div class="selected">
+        <p>You selected <span id="demo"></span> out of 5</p>
+      </div>
+      <div class="head">
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>
+      </div>
+    </div><!-- main-box2 -->
+  </div><!-- container -->
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.facebook.com/AphidetEarth" target="_blank">Aphidet</a>.
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="myScript.js"></script>
+
+</body>
+</html>
